@@ -1,0 +1,13 @@
+name: "Telegram AI Image Bot"
+version: "1.0.0"
+slug: "telegram_ai_image_bot"
+description: "Telegram бот для генерації зображень з AI"
+arch:
+  - amd64
+  - aarch64
+startup: services
+boot: auto
+options:
+  bot_token: ""
+schema:
+  bot_token: str
